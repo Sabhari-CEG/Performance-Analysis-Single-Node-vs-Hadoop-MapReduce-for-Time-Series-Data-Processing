@@ -57,6 +57,7 @@ The system architecture comprises various approaches to processing data using di
 ## Implementation Approaches
 
 ### 1. Hadoop Cluster (1 Master + 4 Workers)
+![Result 1](1.png)
 - **Processing Time Breakdown:**
   - Map Phase: **10.578 seconds**
   - Reduce Phase: **10.448 seconds**
@@ -67,6 +68,8 @@ The system architecture comprises various approaches to processing data using di
   - GC Time: **236ms**
 
 ### 2. Hadoop Cluster (1 Master + 2 Workers)
+![Result 1](2.png)
+
 - **Processing Time Breakdown:**
   - Map Phase: **10.704 seconds**
   - Reduce Phase: **9.731 seconds**
@@ -76,7 +79,11 @@ The system architecture comprises various approaches to processing data using di
   - Peak Reduce Memory: **426.99 MB**
   - GC Time: **190ms**
 
+![Result 1](3.png)
+
 ### 3. Single Node Implementation
+![Result 1](4.png)
+
 - **Total Processing Time:** **0.205 seconds**
 - **Characteristics:**
   - Direct memory access
